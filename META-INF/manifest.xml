@@ -1,22 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest:manifest xmlns:manifest="urn:oasis:names:tc:opendocument:xmlns:manifest:1.0" manifest:version="1.2">
  <manifest:file-entry manifest:full-path="/" manifest:version="1.2" manifest:media-type="application/vnd.oasis.opendocument.spreadsheet"/>
- <manifest:file-entry manifest:full-path="Object 7/meta.xml" manifest:media-type="text/xml"/>
- <manifest:file-entry manifest:full-path="Object 7/content.xml" manifest:media-type="text/xml"/>
- <manifest:file-entry manifest:full-path="Object 7/styles.xml" manifest:media-type="text/xml"/>
- <manifest:file-entry manifest:full-path="Object 7/" manifest:media-type="application/vnd.oasis.opendocument.chart"/>
- <manifest:file-entry manifest:full-path="Configurations2/accelerator/current.xml" manifest:media-type=""/>
- <manifest:file-entry manifest:full-path="Configurations2/" manifest:media-type="application/vnd.sun.xml.ui.configuration"/>
+ <manifest:file-entry manifest:full-path="styles.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="Pictures/10000000000000A00000019227C5F25B.jpg" manifest:media-type="image/jpeg"/>
+ <manifest:file-entry manifest:full-path="Object 10/meta.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="Object 10/content.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="Object 10/styles.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="Object 10/" manifest:media-type="application/vnd.oasis.opendocument.chart"/>
  <manifest:file-entry manifest:full-path="content.xml" manifest:media-type="text/xml"/>
- <manifest:file-entry manifest:full-path="ObjectReplacements/Object 6" manifest:media-type="application/x-openoffice-gdimetafile;windows_formatname=&quot;GDIMetaFile&quot;"/>
+ <manifest:file-entry manifest:full-path="Object 11/meta.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="Object 11/content.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="Object 11/styles.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="Object 11/" manifest:media-type="application/vnd.oasis.opendocument.chart"/>
+ <manifest:file-entry manifest:full-path="Object 12/meta.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="Object 12/content.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="Object 12/styles.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="Object 12/" manifest:media-type="application/vnd.oasis.opendocument.chart"/>
  <manifest:file-entry manifest:full-path="ObjectReplacements/Object 7" manifest:media-type="application/x-openoffice-gdimetafile;windows_formatname=&quot;GDIMetaFile&quot;"/>
+ <manifest:file-entry manifest:full-path="ObjectReplacements/Object 8" manifest:media-type="application/x-openoffice-gdimetafile;windows_formatname=&quot;GDIMetaFile&quot;"/>
+ <manifest:file-entry manifest:full-path="ObjectReplacements/Object 9" manifest:media-type="application/x-openoffice-gdimetafile;windows_formatname=&quot;GDIMetaFile&quot;"/>
+ <manifest:file-entry manifest:full-path="ObjectReplacements/Object 10" manifest:media-type="application/x-openoffice-gdimetafile;windows_formatname=&quot;GDIMetaFile&quot;"/>
+ <manifest:file-entry manifest:full-path="ObjectReplacements/Object 1" manifest:media-type="application/x-openoffice-gdimetafile;windows_formatname=&quot;GDIMetaFile&quot;"/>
  <manifest:file-entry manifest:full-path="ObjectReplacements/Object 2" manifest:media-type="application/x-openoffice-gdimetafile;windows_formatname=&quot;GDIMetaFile&quot;"/>
+ <manifest:file-entry manifest:full-path="ObjectReplacements/Object 11" manifest:media-type="application/x-openoffice-gdimetafile;windows_formatname=&quot;GDIMetaFile&quot;"/>
  <manifest:file-entry manifest:full-path="ObjectReplacements/Object 3" manifest:media-type="application/x-openoffice-gdimetafile;windows_formatname=&quot;GDIMetaFile&quot;"/>
+ <manifest:file-entry manifest:full-path="ObjectReplacements/Object 12" manifest:media-type="application/x-openoffice-gdimetafile;windows_formatname=&quot;GDIMetaFile&quot;"/>
  <manifest:file-entry manifest:full-path="ObjectReplacements/Object 4" manifest:media-type="application/x-openoffice-gdimetafile;windows_formatname=&quot;GDIMetaFile&quot;"/>
  <manifest:file-entry manifest:full-path="ObjectReplacements/Object 5" manifest:media-type="application/x-openoffice-gdimetafile;windows_formatname=&quot;GDIMetaFile&quot;"/>
+ <manifest:file-entry manifest:full-path="ObjectReplacements/Object 6" manifest:media-type="application/x-openoffice-gdimetafile;windows_formatname=&quot;GDIMetaFile&quot;"/>
  <manifest:file-entry manifest:full-path="meta.xml" manifest:media-type="text/xml"/>
- <manifest:file-entry manifest:full-path="settings.xml" manifest:media-type="text/xml"/>
  <manifest:file-entry manifest:full-path="Thumbnails/thumbnail.png" manifest:media-type="image/png"/>
+ <manifest:file-entry manifest:full-path="settings.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="Object 1/Pictures/100000000000005E0000005E47394922.png" manifest:media-type="image/png"/>
+ <manifest:file-entry manifest:full-path="Object 1/Pictures/100000000000005E0000005E1A713443.png" manifest:media-type="image/png"/>
+ <manifest:file-entry manifest:full-path="Object 1/Pictures/100000000000005E0000005ED93A7B9C.png" manifest:media-type="image/png"/>
+ <manifest:file-entry manifest:full-path="Object 1/Pictures/100000000000005E0000005EDC7EA508.png" manifest:media-type="image/png"/>
+ <manifest:file-entry manifest:full-path="Object 1/Pictures/100000000000005E0000005EB1FC5BD3.png" manifest:media-type="image/png"/>
+ <manifest:file-entry manifest:full-path="Object 1/meta.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="Object 1/content.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="Object 1/styles.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="Object 1/" manifest:media-type="application/vnd.oasis.opendocument.chart"/>
  <manifest:file-entry manifest:full-path="Object 2/Pictures/100000000000005E0000005E47394922.png" manifest:media-type="image/png"/>
  <manifest:file-entry manifest:full-path="Object 2/Pictures/100000000000005E0000005E1A713443.png" manifest:media-type="image/png"/>
  <manifest:file-entry manifest:full-path="Object 2/Pictures/100000000000005E0000005ED93A7B9C.png" manifest:media-type="image/png"/>
@@ -26,16 +49,16 @@
  <manifest:file-entry manifest:full-path="Object 2/content.xml" manifest:media-type="text/xml"/>
  <manifest:file-entry manifest:full-path="Object 2/styles.xml" manifest:media-type="text/xml"/>
  <manifest:file-entry manifest:full-path="Object 2/" manifest:media-type="application/vnd.oasis.opendocument.chart"/>
+ <manifest:file-entry manifest:full-path="Configurations2/accelerator/current.xml" manifest:media-type=""/>
+ <manifest:file-entry manifest:full-path="Configurations2/" manifest:media-type="application/vnd.sun.xml.ui.configuration"/>
  <manifest:file-entry manifest:full-path="Object 3/meta.xml" manifest:media-type="text/xml"/>
  <manifest:file-entry manifest:full-path="Object 3/content.xml" manifest:media-type="text/xml"/>
  <manifest:file-entry manifest:full-path="Object 3/styles.xml" manifest:media-type="text/xml"/>
  <manifest:file-entry manifest:full-path="Object 3/" manifest:media-type="application/vnd.oasis.opendocument.chart"/>
- <manifest:file-entry manifest:full-path="styles.xml" manifest:media-type="text/xml"/>
  <manifest:file-entry manifest:full-path="Object 4/meta.xml" manifest:media-type="text/xml"/>
  <manifest:file-entry manifest:full-path="Object 4/content.xml" manifest:media-type="text/xml"/>
  <manifest:file-entry manifest:full-path="Object 4/styles.xml" manifest:media-type="text/xml"/>
  <manifest:file-entry manifest:full-path="Object 4/" manifest:media-type="application/vnd.oasis.opendocument.chart"/>
- <manifest:file-entry manifest:full-path="Pictures/10000000000000A00000019227C5F25B.jpg" manifest:media-type="image/jpeg"/>
  <manifest:file-entry manifest:full-path="Object 5/meta.xml" manifest:media-type="text/xml"/>
  <manifest:file-entry manifest:full-path="Object 5/content.xml" manifest:media-type="text/xml"/>
  <manifest:file-entry manifest:full-path="Object 5/styles.xml" manifest:media-type="text/xml"/>
@@ -44,4 +67,16 @@
  <manifest:file-entry manifest:full-path="Object 6/content.xml" manifest:media-type="text/xml"/>
  <manifest:file-entry manifest:full-path="Object 6/styles.xml" manifest:media-type="text/xml"/>
  <manifest:file-entry manifest:full-path="Object 6/" manifest:media-type="application/vnd.oasis.opendocument.chart"/>
+ <manifest:file-entry manifest:full-path="Object 7/meta.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="Object 7/content.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="Object 7/styles.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="Object 7/" manifest:media-type="application/vnd.oasis.opendocument.chart"/>
+ <manifest:file-entry manifest:full-path="Object 8/meta.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="Object 8/content.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="Object 8/styles.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="Object 8/" manifest:media-type="application/vnd.oasis.opendocument.chart"/>
+ <manifest:file-entry manifest:full-path="Object 9/meta.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="Object 9/content.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="Object 9/styles.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="Object 9/" manifest:media-type="application/vnd.oasis.opendocument.chart"/>
 </manifest:manifest>
