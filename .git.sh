@@ -16,7 +16,7 @@ FILE='engineering.ods'
 #all_but_file=eval "find . -not -path '*/\.*' | awk -F'engineering.ods' '{print $1 $2}'"
 #all_but_file=eval "find . -not -path '*engineering.ods'"
 #all_but_file=$(find . -not -path '*engineering.ods' -not -path '*/.*' | sed 's/[ ]/\\ /g')
-CMD_git_add_all_but_hidden_and_file="find . -not -path '*engineering.ods' -not -path '*/.*' -not -path '*.~*' -print0 | xargs -0 git add" # <-- -print0 to handle spaces, e.g. Object xY.
+#CMD_git_add_all_but_hidden_and_file="find . -not -path '*engineering.ods' -not -path '*/.*' -not -path '*.~*' -print0 | xargs -0 git add " # <-- -print0 to handle spaces, e.g. Object xY.
 
 #echo $all_but_file
 
@@ -26,7 +26,8 @@ if [ $1 == 'add' ]; then
 	if [ -z $2 ]; then
 	    echo 'Adding all non-hidden files ...'
 		#git add $all_but_file
-		eval $CMD_git_add_all_but_hidden_and_file
+		#$CMD_git_add_all_but_hidden_and_file
+		find . -not -path '*engineering.ods' -not -path '*/.*' -not -path '*.~*' -print0 | xargs -0 git add 
 	else:
         git add $2 
     fi
@@ -34,7 +35,8 @@ elif [ $1 == 'commit' ]; then
     ./.unpack.sh
 	echo 'Adding all the unpacked files ...'
 	#git add $all_but_file
-	eval $CMD_git_add_all_but_hidden_and_file
+	#$CMD_git_add_all_but_hidden_and_file
+	find . -not -path '*engineering.ods' -not -path '*/.*' -not -path '*.~*' -print0 | xargs -0 git add 
 	echo 'Committing ...'
     CMD='git commit '
 	#if [[ ${2#*-}=='a' ]]; then
