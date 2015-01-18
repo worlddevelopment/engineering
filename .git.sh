@@ -6,6 +6,8 @@ if [ -z $1 ]; then
 	
 fi
 
+FILE='./engineering.ods'
+
 if [ $1 == 'add' ]; then
     ./.unpack.sh
 	echo 'Adding ...'
@@ -28,17 +30,18 @@ elif [ $1 == 'commit' ]; then
 	fi
 	echo $CMD
 	eval $CMD
-elif [ $1 == 'pull' ]; then
-	echo 'Pushing ... (If it fails check that you added and committed something.)'
-    #BACKUP_EXT='.push.bak' ./.backup.sh
-    git push $2 $3
+#elif [ $1 == 'push' ]; then <-- superfluous, use git push directly instead.
+#	echo 'Pushing ... (If it fails check that you added and committed something.)'
+#    #BACKUP_EXT='.push.bak' ./.backup.sh
+#    git push $2 $3
 elif [ $1 == 'pull' ]; then
 	echo 'Pulling ...'
     git pull $2 $3
     BACKUP_EXT='.pull.bak' ./.backup.sh
     echo 'Assembling '$FILE' ...'
-    7z a $FILE $(find ./ -name '[^.]*')
-else:
+    7z a -r $FILE mimetype $(ls . | grep '[^.]*')
+	#mv $FILE'.zip' $FILE
+else
 	echo 'Command not known.'
 fi
 
