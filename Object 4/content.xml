@@ -172,7 +172,7 @@
      <table:table-rows>
       <table:table-row>
        <table:table-cell office:value-type="string">
-        <text:p>Wind Energy / Wh/d</text:p>
+        <text:p>Flow Energy / Wh/d</text:p>
         <draw:g>
          <svg:desc>Flow.A13:Flow.A13</svg:desc></draw:g>
        </table:table-cell>
