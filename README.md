@@ -83,17 +83,17 @@ Then you can use the shell script ./.git.sh for automatic assembly/packing and u
 
        git status
 
-    2a Choose which (modified/new) files shall be committed:
-    *DON'T ADD/COMMIT THE engineering.ods BINARY DOCUMENT*
+    2. a Choose which (modified/new) files shall be committed:
+        *DON'T ADD/COMMIT THE engineering.ods BINARY DOCUMENT*
 
-        git add <modified or new file pattern>
+            git add <modified or new file pattern>
 
-    OR
-    2b To unpack and add all the XML files of the `engineering.ods`
-    document, there is a command that automates the unpacking and
-    adding of the files to be committed:
+        OR
+    2. b To unpack and add all the XML files of the `engineering.ods`
+        document, there is a command that automates the unpacking and
+        adding of the files to be committed:
 
-        ./git.sh add
+            ./git.sh add
 
 
 4. Prevent merge or resolve conflicts:
