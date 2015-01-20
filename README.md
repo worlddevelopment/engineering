@@ -66,40 +66,42 @@ An open source/free Linux operating system is recommended.
 
 Then you can use the shell script ./.git.sh for automatic assembly/packing and unpacking of the office document:
 
-    # 1a Clone the repository onto your local system:
-    git clone https://github.com/worlddevelopment/engineering.git
+1. a Clone the repository onto your local system:
+        
+        git clone https://github.com/worlddevelopment/engineering.git
+    OR
+    b (using SSH, which is quicker)
+        git clone git@github.com:worlddevelopment/engineering.git
+
+2. Update the files and pack the document:
+        ./git.sh pull
+
+3. 1 Check if other files have been modified:
+       git status
+    2a Choose which (modified/new) files shall be committed:
+    *DON'T ADD/COMMIT THE engineering.ods BINARY DOCUMENT*
+        git add <modified or new file pattern>
+
     # OR
-    # 1b (using SSH, which is quicker)
-    git clone git@github.com:worlddevelopment/engineering.git
+    2b To unpack and add all the XML files of the `engineering.ods`
+    document, there is a command that automates the unpacking and
+    adding of the files to be committed:
+        ./git.sh add
 
-    # 2 Update the files and pack the document:
-    ./git.sh pull
+4. Prevent merge or resolve conflicts:
+   Look for changes in the repository and check for conflicts.
+        git pull #<-- Attention: Better not use ./git.sh pull here (it
+    would move your currently open `engineering.ods` libreoffice 
+    file to `.engineering.ods.bak` and generate a new file `engineering.ods`.
+    It is recommended to close the document in libreoffice first (or to reload it)!
+    If there have been conflicts reported by git pull, then resolve these first.
+    Consult other contributors to see find a solution (if the merge 
+    solution isn't obvious, please avoid breaking the XML/document).
 
-    # 3.1 Check if other files have been modified:
-    git status
-    # 3.2a Choose which (modified/new) files shall be committed (DON'T ADD/COMMIT THE engineering.ods BINARY DOCUMENT):
-    git add <modified or new file pattern>
+5. Commit your additions/improvements/merge:
+        git commit -m "Add calculations for power generation of boiling tank ontop a candlelight."
 
-    # OR
-    # 3.2b To unpack and add all the XML files of the `engineering.ods`
-    # document, there is a command that automates the unpacking and
-    # adding of the files to be committed:
-    ./git.sh add
-
-    # 3 Prevent merge or resolve conflicts:
-    # Look for changes in the repository and check for conflicts.
-    git pull #<-- Attention: Better not use ./git.sh pull here (it
-    # would move your currently open `engineering.ods` libreoffice 
-    # file to `.engineering.ods.bak` and generate a new file `engineering.ods`.
-    # It is recommended to close the document in libreoffice first (or to reload it)!
-    # If there have been conflicts reported by git pull, then resolve these first.
-    # Consult other contributors to see find a solution (if the merge 
-    # solution isn't obvious, please avoid breaking the XML/document).
-
-    # 4 Commit your additions/improvements/merge:
-    git commit -m "Add calculations for power generation of boiling tank ontop a candlelight."
-
-    # 5 Send the commits to the server:
-    git push
+6. Send the commits to the server:
+        git push
     
 
