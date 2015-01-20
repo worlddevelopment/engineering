@@ -1,13 +1,12 @@
-
+<img src="http://wiki.opensourceecology.de/skins/common/images/wiki.png" alt="open source & ecology" title="" align="right" /> 
 Open Engineering
 ===
 (not reinventing the wheel)
----
-<img src="http://wiki.opensourceecology.de/skins/common/images/wiki.png" alt="open source & ecology" title="" align="left" /> 
-<img src="https://www.libreoffice.org/themes/libreofficenew/img/logo.png" alt="libreoffice & visual basic" title="" style="background-color:rgb(0,165,0)" /> 
+
+<img src="https://www.libreoffice.org/themes/libreofficenew/img/logo.png" alt="libreoffice & visual basic" title="" style="background-color:rgb(0,165,0)" align="right" /> 
 
 Why Libre Office?
-===
+---
 
 Libre Office is open source and free.
 Readily available.
@@ -24,13 +23,14 @@ It allows for programming directly on the data using (Visual) Basic language.
 
 This makes it possible to integrate numerical or analytical algorithms that are essential in many parts of engineering.
  
+<img src="http://www.freecadweb.org/images/freecad.png" alt="freecad" title="" align="right" /> 
 Integration with Blender, FreeCAD and OpenFOAM is easily possible via export and import plugins (written in Basic in Libre Office and in Python in blender and FreeCAD, creating OpenFOAM compatible exports is just a matter of maths).
 
-<img src="http://www.freecadweb.org/images/freecad.png" alt="freecad" title="" align="left" /> 
 <img src="http://www.openfoam.org/img/OpenFOAMlogo3.png" alt="openfoam" title="" align="" /> 
 
+
 Goals
-===
+---
 
 A greener and healthy planet (for both animals, fungi and plants). The ecological impact will always be eyed with.
 
@@ -44,7 +44,7 @@ The availability for free and open source/access of high living standards might 
 
 
 Concerns due to misuse?
-===
+---
 
 Everything can be misused. Even closed-source information can be hacked by terrorists if they really wanted to (and perhaps they want, and then the effect'd be only negative - and noone even'd know they had the technology).
 
@@ -59,7 +59,7 @@ Thus it may even be less harm done if they can construct their own power plants 
 How to contribute/use?
 ===
 
-A open source/free Linux operating system is recommended.
+An open source/free Linux operating system is recommended.
 
 Then you can use the shell script ./.git.sh for automatic assembly/packing and unpacking of the office document:
 
