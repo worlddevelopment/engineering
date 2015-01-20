@@ -81,13 +81,20 @@ Then you can use the shell script ./.git.sh for automatic assembly/packing and u
     git add <modified or new file pattern>
 
     # OR
-    # 3.2b To unpack and add all the XML files of the engineering.ods document, there is a command that automates the unpacking and adding of the files to be committed:
+    # 3.2b To unpack and add all the XML files of the `engineering.ods`
+    # document, there is a command that automates the unpacking and
+    # adding of the files to be committed:
     ./git.sh add
 
     # 3 Prevent merge or resolve conflicts:
     # Look for changes in the repository and check for conflicts.
-    git pull #<-- Attention: Better not use ./git.sh pull here (it would move your currently open `engineering.ods` libreoffice file to `.engineering.ods.bak` and generate a new file `engineering.ods`. It is recommended to close the document in libreoffice first (or to reload it)!
-    # If there have been conflicts reported by git pull, then resolve these first. Consult other contributors to see find a solution (if it's not obvious or you are confident you know how to merge it manually without breaking the XML/document).
+    git pull #<-- Attention: Better not use ./git.sh pull here (it
+    # would move your currently open `engineering.ods` libreoffice 
+    # file to `.engineering.ods.bak` and generate a new file `engineering.ods`.
+    # It is recommended to close the document in libreoffice first (or to reload it)!
+    # If there have been conflicts reported by git pull, then resolve these first.
+    # Consult other contributors to see find a solution (if the merge 
+    # solution isn't obvious, please avoid breaking the XML/document).
 
     # 4 Commit your additions/improvements/merge:
     git commit -m "Add calculations for power generation of boiling tank ontop a candlelight."
