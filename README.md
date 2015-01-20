@@ -80,7 +80,7 @@ Then you can use the shell script ./.git.sh for automatic assembly/packing and u
 
 3. 1 Check if other files have been modified:
 
-       git status
+        git status
 
     2a Choose which (modified/new) files shall be committed:
     *DON'T ADD/COMMIT THE engineering.ods BINARY DOCUMENT*
@@ -100,7 +100,7 @@ Then you can use the shell script ./.git.sh for automatic assembly/packing and u
 
         git pull
 
-   *Attention: Better not use ./.git.sh pull here when checking if there have been changes to the remote repository. ./.git.sh pull would move your currently open `engineering.ods` libreoffice file to `.engineering.ods.bak` and generate a new file `engineering.ods`.*
+   *_Attention_: Better not use `./.git.sh` pull here when checking if there have been changes to the remote repository. `./.git.sh` pull would move your currently open `engineering.ods` libreoffice file to `.engineering.ods.bak` and generate a new file `engineering.ods`.*
     *For these cases it is recommended to close the document in libreoffice first (or to reload it)! But here we don't want to regenerate the document, but only check for changes. Thus use `git pull`.*
 
     If there have been conflicts reported by git pull, then resolve these first.
