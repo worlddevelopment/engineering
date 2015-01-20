@@ -8,25 +8,26 @@ Open Engineering
 Why Libre Office?
 ---
 
-Libre Office is open source and free.
+* Libre Office is open source and free.
 Readily available.
 
-Easy to use. (compared to other good alternatives like Octave)
+* Easy to use. (compared to other good alternatives like Octave)
 
-Its file format is XML, human readable and Git capable, making light-weight version control and merging of improvements by other green people of this world possible.
+* Its file format is XML, human readable and Git capable, making light-weight version control and merging of improvements by other green people of this world possible.
 
-It features easy and structured calculation possibilities. (Cells can be coloured.)
+* It features easy and structured calculation possibilities. (Cells can be coloured.)
 
-Cells can be analysed in graphs directly in Liberty Office.
+* Cells can be analysed in graphs directly in Liberty Office.
 
-It allows for programming directly on the data using (Visual) Basic language.
+* It allows for programming directly on the data using (Visual) Basic language.
 
-This makes it possible to integrate numerical or analytical algorithms that are essential in many parts of engineering.
- 
-<img src="http://www.freecadweb.org/images/freecad.png" alt="freecad" title="" align="right" /> 
-Integration with Blender, FreeCAD and OpenFOAM is easily possible via export and import plugins (written in Basic in Libre Office and in Python in blender and FreeCAD, creating OpenFOAM compatible exports is just a matter of maths).
+* This makes it possible to integrate numerical or analytical algorithms directly/realtime that are essential in many parts of engineering.
 
+* <img src="http://www.freecadweb.org/images/freecad.png" alt="freecad" title="" align="right" /> 
+Integration/interaction with Blender, FreeCAD, GNU Octave and OpenFOAM is possible via export and import plugins (written in Basic in Libre Office and in Python in blender and FreeCAD, creating OpenFOAM compatible exports is just a matter of maths). Direct/realtime communication also is possible but increases complexity.
+<img src="https://www.gnu.org/software/octave/images/logo.png" alt="" title="right" />
 <img src="http://www.openfoam.org/img/OpenFOAMlogo3.png" alt="openfoam" title="" align="" /> 
+<img src="https://www.blender.org/wp-content/themes/bthree/assets/images/logo.png" alt="" title="" />
 
 
 Goals
