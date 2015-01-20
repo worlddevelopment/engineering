@@ -11,6 +11,8 @@ Why Libre Office?
 * Libre Office is open source and free.
 Readily available.
 
+* Calculations update automatically / realtime on data change (besides numerical algorithms that have to be triggered).
+
 * Easy to use. (compared to other good alternatives like Octave)
 
 * Its file format is XML, human readable and Git capable, making light-weight version control and merging of improvements by other green people of this world possible.
