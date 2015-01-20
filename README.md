@@ -71,37 +71,49 @@ Then you can use the shell script ./.git.sh for automatic assembly/packing and u
         git clone https://github.com/worlddevelopment/engineering.git
     OR
     b (using SSH, which is quicker)
+
         git clone git@github.com:worlddevelopment/engineering.git
 
 2. Update the files and pack the document:
+
         ./git.sh pull
 
-3. 1 Check if other files have been modified:
+3.
+    1. Check if other files have been modified:
+
        git status
+
     2a Choose which (modified/new) files shall be committed:
     *DON'T ADD/COMMIT THE engineering.ods BINARY DOCUMENT*
+
         git add <modified or new file pattern>
 
-    # OR
+    OR
     2b To unpack and add all the XML files of the `engineering.ods`
     document, there is a command that automates the unpacking and
     adding of the files to be committed:
+
         ./git.sh add
+
 
 4. Prevent merge or resolve conflicts:
    Look for changes in the repository and check for conflicts.
-        git pull #<-- Attention: Better not use ./git.sh pull here (it
-    would move your currently open `engineering.ods` libreoffice 
-    file to `.engineering.ods.bak` and generate a new file `engineering.ods`.
-    It is recommended to close the document in libreoffice first (or to reload it)!
+
+        git pull
+
+   *Attention: Better not use ./.git.sh pull here when checking if there have been changes to the remote repository. ./.git.sh pull would move your currently open `engineering.ods` libreoffice file to `.engineering.ods.bak` and generate a new file `engineering.ods`.*
+    *For these cases it is recommended to close the document in libreoffice first (or to reload it)! But here we don't want to regenerate the document, but only check for changes. Thus use `git pull`.*
+
     If there have been conflicts reported by git pull, then resolve these first.
     Consult other contributors to see find a solution (if the merge 
-    solution isn't obvious, please avoid breaking the XML/document).
+    solution isn't obvious to avoid breaking the XML/document).
 
 5. Commit your additions/improvements/merge:
+
         git commit -m "Add calculations for power generation of boiling tank ontop a candlelight."
 
 6. Send the commits to the server:
+
         git push
     
 
