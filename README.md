@@ -1,9 +1,9 @@
-<img src="http://wiki.opensourceecology.de/skins/common/images/wiki.png" alt="open source & ecology" title="" align="right" /> 
+<img src="http://wiki.opensourceecology.de/skins/common/images/wiki.png" alt="open source & ecology" title="" align="right" />
 Open Engineering
 ===
 (not reinventing the wheel)
 
-<img src="https://www.libreoffice.org/themes/libreofficenew/img/logo.png" alt="libreoffice & visual basic" title="" style="background-color:rgb(0,165,0)" align="right" /> 
+<img src="https://www.libreoffice.org/themes/libreofficenew/img/logo.png" alt="libreoffice & visual basic" title="" style="background-color:rgb(0,165,0)" align="right" />
 
 Why Libre Office?
 ---
@@ -27,8 +27,8 @@ Readily available.
 
 * <img src="https://www.gnu.org/software/octave/images/logo.png" alt="" title="" align="right" />
 Integration/interaction with Blender, FreeCAD, GNU Octave and OpenFOAM is possible via export and import plugins (written in Basic in Libre Office and in Python in blender and FreeCAD, creating OpenFOAM compatible exports is just a matter of maths). Direct/realtime communication also is possible but increases complexity.
-<img src="http://www.freecadweb.org/images/freecad.png" alt="freecad" title="" align="right" /> 
-<img src="http://www.openfoam.org/img/OpenFOAMlogo3.png" alt="openfoam" title="" align="" /> 
+<img src="http://www.freecadweb.org/images/freecad.png" alt="freecad" title="" align="right" />
+<img src="http://www.openfoam.org/img/OpenFOAMlogo3.png" alt="openfoam" title="" align="" />
 <img src="https://www.blender.org/wp-content/themes/bthree/assets/images/logo.png" alt="" title="" />
 
 
@@ -59,6 +59,8 @@ Thus it may even be less harm done if they can construct their own power plants 
 
 => Therefore an open engineering resource like this may do more good than it can be misused. Of course misuse is possible, but cornerstones will be surrected and without much knowledge circumventing the effects of these cornerstones will be difficult.
 
+
+
 How to contribute/use?
 ===
 
@@ -67,7 +69,7 @@ An open source/free Linux operating system is recommended.
 Then you can use the shell script ./.git.sh for automatic assembly/packing and unpacking of the office document:
 
 1. a Clone the repository onto your local system:
-        
+
         git clone https://github.com/worlddevelopment/engineering.git
     OR
     b (using SSH, which is quicker)
@@ -76,7 +78,7 @@ Then you can use the shell script ./.git.sh for automatic assembly/packing and u
 
 2. Update the files and pack the document:
 
-        ./git.sh pull
+        ./.git.sh pull
 
 3. 1 Check if other files have been modified:
 
@@ -92,19 +94,21 @@ Then you can use the shell script ./.git.sh for automatic assembly/packing and u
     document, there is a command that automates the unpacking and
     adding of the files to be committed:
 
-        ./git.sh add
+        ./.git.sh add
 
 
 4. Prevent merge or resolve conflicts:
    Look for changes in the repository and check for conflicts.
 
+        git fetch && git log --pretty --oneline --graph && git rebase --onto <ref> <ref> master
+   OR
         git pull
 
    *_Attention_: Better not use `./.git.sh` pull here when checking if there have been changes to the remote repository. `./.git.sh` pull would move your currently open `engineering.ods` libreoffice file to `.engineering.ods.bak` and generate a new file `engineering.ods`.*
     *For these cases it is recommended to close the document in libreoffice first (or to reload it)! But here we don't want to regenerate the document, but only check for changes. Thus use `git pull`.*
 
     If there have been conflicts reported by git pull, then resolve these first.
-    Consult other contributors to see find a solution (if the merge 
+    Consult other contributors to see find a solution (if the merge
     solution isn't obvious to avoid breaking the XML/document).
 
 5. Commit your additions/improvements/merge:
@@ -114,5 +118,5 @@ Then you can use the shell script ./.git.sh for automatic assembly/packing and u
 6. Send the commits to the server:
 
         git push
-    
+
 
