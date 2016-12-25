@@ -3,7 +3,7 @@
 if [ -z $1 ]; then
 	echo 'No command given. Exiting.'
 	exit 1
-	
+
 fi
 
 FILE='engineering.ods'
@@ -24,7 +24,7 @@ FILE='engineering.ods'
 ##
 # WORKING ALTERNATIVE without -print0 (the one that currently is used, credit oyouareatubeo from stackoverflow)
 #http://stackoverflow.com/questions/143171/how-can-i-use-xargs-to-copy-files-that-have-spaces-and-quotes-in-their-names
-#find . -not -path '*engineering.ods' -not -path '*/.*' -not -path '*.~*' -not -path '..' -not -path '.' | sed 's/.*/"&"/' | xargs git add 
+#find . -not -path '*engineering.ods' -not -path '*/.*' -not -path '*.~*' -not -path '..' -not -path '.' | sed 's/.*/"&"/' | xargs git add
 
 # NOTE:
 # => Now still not using subdirectories because even if a custom OpenFOAM or other engineering tools shall be integrated, the integration will rather be the other way, i.e. this engineeringtoolkit repository will be loaded as submodule or subtree in OpenFOAM.
@@ -38,7 +38,7 @@ if [ $1 == 'add' ]; then
 		#$CMD_git_add_all_but_hidden_and_file
 		$(find . -not -path '*engineering.ods' -not -path '*/.*' -not -path '*.~*' -not -path '..' -not -path '.' | sed 's/.*/"&"/' | xargs git add)
 	else
-        git add $2 
+        git add $2
     fi
 elif [ $1 == 'commit' ]; then
 	echo 'Committing ...'
