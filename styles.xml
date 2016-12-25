@@ -91,6 +91,10 @@
    <style:paragraph-properties css3t:text-justify="auto"/>
    <style:text-properties fo:color="#800000"/>
   </style:style>
+  <style:style style:name="success" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties fo:background-color="#94bd5e"/>
+   <style:text-properties fo:color="#000000"/>
+  </style:style>
  </office:styles>
  <office:automatic-styles>
   <style:page-layout style:name="Mpm1">
@@ -135,7 +139,7 @@
      <text:p><text:sheet-name>???</text:sheet-name> (<text:title>???</text:title>)</text:p>
     </style:region-left>
     <style:region-right>
-     <text:p><text:date style:data-style-name="N2" text:date-value="2015-01-19">00/00/0000</text:date>, <text:time>00:00:00</text:time></text:p>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2016-12-25">00/00/0000</text:date>, <text:time>00:00:00</text:time></text:p>
     </style:region-right>
    </style:header>
    <style:header-left style:display="false"/>

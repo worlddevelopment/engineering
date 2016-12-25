@@ -84,20 +84,20 @@
  </office:automatic-styles>
  <office:body>
   <office:chart>
-   <chart:chart svg:width="28.716cm" svg:height="10.073cm" xlink:href=".." xlink:type="simple" chart:class="chart:bar" chart:style-name="ch1">
+   <chart:chart svg:width="28.716cm" svg:height="10.073cm" xlink:href=".." xlink:type="simple" chart:class="chart:bar" chart:row-mapping="0 2 5 1 3 4" chart:style-name="ch1">
     <chart:title svg:x="9.301cm" svg:y="0.337cm" chart:style-name="ch2">
      <text:p>Harvest-Overview a Day / Ertrags-Tagesübersicht</text:p>
     </chart:title>
     <chart:legend chart:legend-position="start" svg:x="0cm" svg:y="0.405cm" style:legend-expansion="high" chart:style-name="ch3"/>
-    <chart:plot-area chart:style-name="ch4" table:cell-range-address="Flow.A13:Flow.Q14 Flow.A15:Flow.Q15 Flow.A25:Flow.Q25 Flow.A21:Flow.Q22" chart:data-source-has-labels="column" svg:x="3.135cm" svg:y="0.179cm" svg:width="25.112cm" svg:height="9.059cm">
+    <chart:plot-area chart:style-name="ch4" table:cell-range-address="Flow.A13:Flow.Q14 Flow.A15:Flow.Q15 Flow.A25:Flow.Q25 Flow.A21:Flow.Q22" chart:data-source-has-labels="column" svg:x="3.135cm" svg:y="0.179cm" svg:width="25.112cm" svg:height="9.428cm">
      <chartooo:coordinate-region svg:x="3.135cm" svg:y="0.378cm" svg:width="25.112cm" svg:height="8.661cm"/>
      <chart:axis chart:dimension="x" chart:name="primary-x" chart:style-name="ch5">
-      <chart:title svg:x="12.181cm" svg:y="9.439cm" chart:style-name="ch6">
+      <chart:title svg:x="12.181cm" svg:y="9.513cm" chart:style-name="ch6">
        <text:p>Day-Wind velocity / Tages-Windgeschwindigkeit</text:p>
       </chart:title>
      </chart:axis>
      <chart:axis chart:dimension="y" chart:name="primary-y" chart:style-name="ch7">
-      <chart:title svg:x="2.001cm" svg:y="6.71cm" chart:style-name="ch8">
+      <chart:title svg:x="2.001cm" svg:y="6.895cm" chart:style-name="ch8">
        <text:p>Power/W &amp; Energy/Wh/24h</text:p>
       </chart:title>
       <chart:grid chart:style-name="ch9" chart:class="major"/>
@@ -305,64 +305,64 @@
       </table:table-row>
       <table:table-row>
        <table:table-cell office:value-type="string">
-        <text:p>Torque / Nm</text:p>
+        <text:p>Generator Torque / Nm</text:p>
         <draw:g>
          <svg:desc>Flow.A25:Flow.A25</svg:desc></draw:g>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="-0.607361730563005">
-        <text:p>-0.607361730563005</text:p>
+       <table:table-cell office:value-type="float" office:value="0.0285290626291064">
+        <text:p>0.0285290626291064</text:p>
         <draw:g>
          <svg:desc>Flow.B25:Flow.Q25</svg:desc></draw:g>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="0.683261314429269">
-        <text:p>0.683261314429269</text:p>
+       <table:table-cell office:value-type="float" office:value="0.117872055907979">
+        <text:p>0.117872055907979</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="2.01409851939686">
-        <text:p>2.01409851939686</text:p>
+       <table:table-cell office:value-type="float" office:value="0.268999597062778">
+        <text:p>0.268999597062778</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="3.38536465191127">
-        <text:p>3.38536465191127</text:p>
+       <table:table-cell office:value-type="float" office:value="0.482258051614475">
+        <text:p>0.482258051614475</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="4.79718383576904">
-        <text:p>4.79718383576904</text:p>
+       <table:table-cell office:value-type="float" office:value="0.757847599707341">
+        <text:p>0.757847599707341</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="6.24963981997743">
-        <text:p>6.24963981997743</text:p>
+       <table:table-cell office:value-type="float" office:value="1.0959033072097">
+        <text:p>1.0959033072097</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="7.74279408681308">
-        <text:p>7.74279408681308</text:p>
+       <table:table-cell office:value-type="float" office:value="1.49652432941131">
+        <text:p>1.49652432941131</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="9.2766942730525">
-        <text:p>9.2766942730525</text:p>
+       <table:table-cell office:value-type="float" office:value="1.95978749232826">
+        <text:p>1.95978749232826</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="10.8513787043435">
-        <text:p>10.8513787043435</text:p>
+       <table:table-cell office:value-type="float" office:value="2.48575460549201">
+        <text:p>2.48575460549201</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="12.4668790862494">
-        <text:p>12.4668790862494</text:p>
+       <table:table-cell office:value-type="float" office:value="3.07447680192004">
+        <text:p>3.07447680192004</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="14.1232222170955">
-        <text:p>14.1232222170955</text:p>
+       <table:table-cell office:value-type="float" office:value="3.72599730050139">
+        <text:p>3.72599730050139</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="15.820431137532">
-        <text:p>15.820431137532</text:p>
+       <table:table-cell office:value-type="float" office:value="4.44035325995063">
+        <text:p>4.44035325995063</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="17.5585259348586">
-        <text:p>17.5585259348586</text:p>
+       <table:table-cell office:value-type="float" office:value="5.21757707597772">
+        <text:p>5.21757707597772</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="19.3375243250393">
-        <text:p>19.3375243250393</text:p>
+       <table:table-cell office:value-type="float" office:value="6.05769731993114">
+        <text:p>6.05769731993114</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="21.1574420857091">
-        <text:p>21.1574420857091</text:p>
+       <table:table-cell office:value-type="float" office:value="6.96073943712721">
+        <text:p>6.96073943712721</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="23.0182933859219">
-        <text:p>23.0182933859219</text:p>
+       <table:table-cell office:value-type="float" office:value="7.92672627864938">
+        <text:p>7.92672627864938</text:p>
        </table:table-cell>
       </table:table-row>
       <table:table-row>
        <table:table-cell office:value-type="string">
-        <text:p>Turbine Power / W</text:p>
+        <text:p>Turbine Power P_mech / W</text:p>
         <draw:g>
          <svg:desc>Flow.A14:Flow.A14</svg:desc></draw:g>
        </table:table-cell>
@@ -419,59 +419,59 @@
       </table:table-row>
       <table:table-row>
        <table:table-cell office:value-type="string">
-        <text:p>50  ←Ratio Transm.Gen./Turb. | @1:1→</text:p>
+        <text:p>70  ←Ratio Transm.Gen./Turb. | @1:1→</text:p>
         <draw:g>
          <svg:desc>Flow.A21:Flow.A21</svg:desc></draw:g>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="19.0985931710274">
-        <text:p>19.0985931710274</text:p>
+       <table:table-cell office:value-type="float" office:value="12.4140855611678">
+        <text:p>12.4140855611678</text:p>
         <draw:g>
          <svg:desc>Flow.B21:Flow.Q21</svg:desc></draw:g>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="38.1971863420549">
-        <text:p>38.1971863420549</text:p>
+       <table:table-cell office:value-type="float" office:value="24.8281711223357">
+        <text:p>24.8281711223357</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="57.2957795130823">
-        <text:p>57.2957795130823</text:p>
+       <table:table-cell office:value-type="float" office:value="37.2422566835035">
+        <text:p>37.2422566835035</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="76.3943726841098">
-        <text:p>76.3943726841098</text:p>
+       <table:table-cell office:value-type="float" office:value="49.6563422446714">
+        <text:p>49.6563422446714</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="95.4929658551372">
-        <text:p>95.4929658551372</text:p>
+       <table:table-cell office:value-type="float" office:value="62.0704278058392">
+        <text:p>62.0704278058392</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="114.591559026165">
-        <text:p>114.591559026165</text:p>
+       <table:table-cell office:value-type="float" office:value="74.484513367007">
+        <text:p>74.484513367007</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="133.690152197192">
-        <text:p>133.690152197192</text:p>
+       <table:table-cell office:value-type="float" office:value="86.8985989281748">
+        <text:p>86.8985989281748</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="152.78874536822">
-        <text:p>152.78874536822</text:p>
+       <table:table-cell office:value-type="float" office:value="99.3126844893427">
+        <text:p>99.3126844893427</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="171.887338539247">
-        <text:p>171.887338539247</text:p>
+       <table:table-cell office:value-type="float" office:value="111.726770050511">
+        <text:p>111.726770050511</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="190.985931710274">
-        <text:p>190.985931710274</text:p>
+       <table:table-cell office:value-type="float" office:value="124.140855611678">
+        <text:p>124.140855611678</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="210.084524881302">
-        <text:p>210.084524881302</text:p>
+       <table:table-cell office:value-type="float" office:value="136.554941172846">
+        <text:p>136.554941172846</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="229.183118052329">
-        <text:p>229.183118052329</text:p>
+       <table:table-cell office:value-type="float" office:value="148.969026734014">
+        <text:p>148.969026734014</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="248.281711223357">
-        <text:p>248.281711223357</text:p>
+       <table:table-cell office:value-type="float" office:value="161.383112295182">
+        <text:p>161.383112295182</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="267.380304394384">
-        <text:p>267.380304394384</text:p>
+       <table:table-cell office:value-type="float" office:value="173.79719785635">
+        <text:p>173.79719785635</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="286.478897565412">
-        <text:p>286.478897565412</text:p>
+       <table:table-cell office:value-type="float" office:value="186.211283417518">
+        <text:p>186.211283417518</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="305.577490736439">
-        <text:p>305.577490736439</text:p>
+       <table:table-cell office:value-type="float" office:value="198.625368978685">
+        <text:p>198.625368978685</text:p>
        </table:table-cell>
       </table:table-row>
       <table:table-row>
@@ -480,55 +480,55 @@
         <draw:g>
          <svg:desc>Flow.A22:Flow.A22</svg:desc></draw:g>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="954.929658551372">
-        <text:p>954.929658551372</text:p>
+       <table:table-cell office:value-type="float" office:value="868.985989281749">
+        <text:p>868.985989281749</text:p>
         <draw:g>
          <svg:desc>Flow.B22:Flow.Q22</svg:desc></draw:g>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="1909.85931710274">
-        <text:p>1909.85931710274</text:p>
+       <table:table-cell office:value-type="float" office:value="1737.9719785635">
+        <text:p>1737.9719785635</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="2864.78897565412">
-        <text:p>2864.78897565412</text:p>
+       <table:table-cell office:value-type="float" office:value="2606.95796784525">
+        <text:p>2606.95796784525</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="3819.71863420549">
-        <text:p>3819.71863420549</text:p>
+       <table:table-cell office:value-type="float" office:value="3475.94395712699">
+        <text:p>3475.94395712699</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="4774.64829275686">
-        <text:p>4774.64829275686</text:p>
+       <table:table-cell office:value-type="float" office:value="4344.92994640874">
+        <text:p>4344.92994640874</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="5729.57795130823">
-        <text:p>5729.57795130823</text:p>
+       <table:table-cell office:value-type="float" office:value="5213.91593569049">
+        <text:p>5213.91593569049</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="6684.5076098596">
-        <text:p>6684.5076098596</text:p>
+       <table:table-cell office:value-type="float" office:value="6082.90192497224">
+        <text:p>6082.90192497224</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="7639.43726841098">
-        <text:p>7639.43726841098</text:p>
+       <table:table-cell office:value-type="float" office:value="6951.88791425399">
+        <text:p>6951.88791425399</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="8594.36692696235">
-        <text:p>8594.36692696235</text:p>
+       <table:table-cell office:value-type="float" office:value="7820.87390353574">
+        <text:p>7820.87390353574</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="9549.29658551372">
-        <text:p>9549.29658551372</text:p>
+       <table:table-cell office:value-type="float" office:value="8689.85989281749">
+        <text:p>8689.85989281749</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="10504.2262440651">
-        <text:p>10504.2262440651</text:p>
+       <table:table-cell office:value-type="float" office:value="9558.84588209923">
+        <text:p>9558.84588209923</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="11459.1559026165">
-        <text:p>11459.1559026165</text:p>
+       <table:table-cell office:value-type="float" office:value="10427.831871381">
+        <text:p>10427.831871381</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="12414.0855611678">
-        <text:p>12414.0855611678</text:p>
+       <table:table-cell office:value-type="float" office:value="11296.8178606627">
+        <text:p>11296.8178606627</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="13369.0152197192">
-        <text:p>13369.0152197192</text:p>
+       <table:table-cell office:value-type="float" office:value="12165.8038499445">
+        <text:p>12165.8038499445</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="14323.9448782706">
-        <text:p>14323.9448782706</text:p>
+       <table:table-cell office:value-type="float" office:value="13034.7898392262">
+        <text:p>13034.7898392262</text:p>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="15278.874536822">
-        <text:p>15278.874536822</text:p>
+       <table:table-cell office:value-type="float" office:value="13903.775828508">
+        <text:p>13903.775828508</text:p>
        </table:table-cell>
       </table:table-row>
      </table:table-rows>

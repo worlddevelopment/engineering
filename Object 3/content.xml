@@ -71,7 +71,7 @@
  </office:automatic-styles>
  <office:body>
   <office:chart>
-   <chart:chart svg:width="28.848cm" svg:height="14.447cm" xlink:href=".." xlink:type="simple" chart:class="chart:bar" chart:style-name="ch1">
+   <chart:chart svg:width="28.848cm" svg:height="14.447cm" xlink:href=".." xlink:type="simple" chart:class="chart:bar" chart:row-mapping="0 1 4 2 3" chart:style-name="ch1">
     <chart:title svg:x="9.367cm" svg:y="0.424cm" chart:style-name="ch2">
      <text:p>Harvest-Overview a Day / Ertrags-Tagesübersicht</text:p>
     </chart:title>
@@ -348,13 +348,13 @@ Power/W &amp; Energy/Wh/24h</text:p>
         <draw:g>
          <svg:desc>Flow.A31:Flow.A31</svg:desc></draw:g>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="110.54791501939">
-        <text:p>110.54791501939</text:p>
+       <table:table-cell office:value-type="float" office:value="111.497758508799">
+        <text:p>111.497758508799</text:p>
         <draw:g>
          <svg:desc>Flow.B31:Flow.Q31</svg:desc></draw:g>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="1035.88773638545">
-        <text:p>1035.88773638545</text:p>
+       <table:table-cell office:value-type="float" office:value="1029.06581088596">
+        <text:p>1029.06581088596</text:p>
        </table:table-cell>
        <table:table-cell office:value-type="float" office:value="3000">
         <text:p>3000</text:p>
@@ -405,13 +405,13 @@ Power/W &amp; Energy/Wh/24h</text:p>
         <draw:g>
          <svg:desc>Flow.A32:Flow.A32</svg:desc></draw:g>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="110.54791501939">
-        <text:p>110.54791501939</text:p>
+       <table:table-cell office:value-type="float" office:value="111.497758508799">
+        <text:p>111.497758508799</text:p>
         <draw:g>
          <svg:desc>Flow.B32:Flow.Q32</svg:desc></draw:g>
        </table:table-cell>
-       <table:table-cell office:value-type="float" office:value="1035.88773638545">
-        <text:p>1035.88773638545</text:p>
+       <table:table-cell office:value-type="float" office:value="1029.06581088596">
+        <text:p>1029.06581088596</text:p>
        </table:table-cell>
        <table:table-cell office:value-type="float" office:value="3000">
         <text:p>3000</text:p>

@@ -91,21 +91,21 @@
  </office:automatic-styles>
  <office:body>
   <office:chart>
-   <chart:chart svg:width="28.533cm" svg:height="10.084cm" xlink:href="." xlink:type="simple" chart:class="chart:bar" chart:style-name="ch1">
-    <chart:title svg:x="9.209cm" svg:y="0.337cm" chart:style-name="ch2">
+   <chart:chart svg:width="29.085cm" svg:height="10.082cm" xlink:href="." xlink:type="simple" chart:class="chart:bar" chart:style-name="ch1">
+    <chart:title svg:x="9.485cm" svg:y="0.337cm" chart:style-name="ch2">
      <text:p>Harvest-Overview a Day / Ertrags-Tagesübersicht</text:p>
     </chart:title>
-    <chart:legend svg:x="0cm" svg:y="0.404cm" style:legend-expansion="custom" chartooo:width="1.73cm" chartooo:height="2.614cm" style:legend-expansion-aspect-ratio="0.661820964039786" chart:style-name="ch3"/>
-    <chart:plot-area chart:style-name="ch4" chart:data-source-has-labels="both" svg:x="3.037cm" svg:y="0.094cm" svg:width="25.317cm" svg:height="9.424cm">
-     <chartooo:coordinate-region svg:x="3.037cm" svg:y="0.293cm" svg:width="25.317cm" svg:height="8.657cm"/>
+    <chart:legend svg:x="0cm" svg:y="0.403cm" style:legend-expansion="custom" chartooo:width="1.763cm" chartooo:height="2.613cm" style:legend-expansion-aspect-ratio="0.67470340604669" chart:style-name="ch3"/>
+    <chart:plot-area chart:style-name="ch4" chart:data-source-has-labels="both" svg:x="3.095cm" svg:y="0.092cm" svg:width="25.806cm" svg:height="9.423cm">
+     <chartooo:coordinate-region svg:x="3.095cm" svg:y="0.292cm" svg:width="25.806cm" svg:height="8.655cm"/>
      <chart:axis chart:dimension="x" chart:name="primary-x" chart:style-name="ch5" chartooo:axis-type="text">
-      <chart:title svg:x="12.185cm" svg:y="9.524cm" chart:style-name="ch6">
+      <chart:title svg:x="12.488cm" svg:y="9.522cm" chart:style-name="ch6">
        <text:p>Day-Wind velocity / Tages-Windgeschwindigkeit</text:p>
       </chart:title>
       <chart:categories table:cell-range-address="local-table.$A$2:.$A$7"/>
      </chart:axis>
      <chart:axis chart:dimension="y" chart:name="primary-y" chart:style-name="ch7">
-      <chart:title svg:x="1.907cm" svg:y="6.808cm" chart:style-name="ch8">
+      <chart:title svg:x="1.954cm" svg:y="6.805cm" chart:style-name="ch8">
        <text:p>Power/W &amp; Energy/Wh/24h</text:p>
       </chart:title>
       <chart:grid chart:style-name="ch9" chart:class="major"/>
