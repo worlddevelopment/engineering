@@ -27,9 +27,8 @@ Readily available.
 
 * <img src="https://www.gnu.org/software/octave/images/logo.png" alt="" title="" align="right" />
 Integration/interaction with Blender, FreeCAD, GNU Octave and OpenFOAM is possible via export and import plugins (written in Basic in Libre Office and in Python in blender and FreeCAD, creating OpenFOAM compatible exports is just a matter of maths). Direct/realtime communication also is possible but increases complexity.
-<img src="http://www.freecadweb.org/images/freecad.png" alt="freecad" title="" align="right" />
-<img src="http://www.openfoam.org/img/OpenFOAMlogo3.png" alt="openfoam" title="" align="" />
-<img src="https://www.blender.org/wp-content/themes/bthree/assets/images/logo.png" alt="" title="" />
+
+![blender](https://www.blender.org/wp-content/themes/bthree/assets/images/logo.png?4c87a8 200x) ![freecad](https://avatars2.githubusercontent.com/u/2306237?v=3&s=200) ![openfoam](https://avatars3.githubusercontent.com/u/189613?v=3&s=100)
 
 
 Goals
